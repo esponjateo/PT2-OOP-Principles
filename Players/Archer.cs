@@ -10,7 +10,7 @@ public class Archer : Playerstats
     {
         Debug.Log("Archer Attacks Mercenary");
         mercenary.Health -= Attack;
-        Debug.Log("Goblin Health: " + mercenary.Health);
+        Debug.Log("Mercenary Health: " + mercenary.Health);
     }
 
     private void Start()
